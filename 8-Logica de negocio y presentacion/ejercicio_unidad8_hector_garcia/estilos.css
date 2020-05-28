@@ -1,0 +1,318 @@
+@charset "UTF-8";
+
+body {
+	margin:0;
+	font-family:Arial;
+	background:#EEE;
+}
+
+h1 {
+	margin:0;
+	color:#FFF;
+}
+
+h2 {
+	float:left;
+	width:100%;
+	color:#319dd7;
+	margin-top:10px;
+}
+
+#main {
+	width:800px;
+	margin:0 auto;
+	margin-top:20px;
+	box-shadow:0 3px 3px rgba(0,0,0,0.2);
+	border-radius:10px;
+	overflow:hidden;
+}
+
+header {
+	background:#319dd7;
+	padding:20px;
+}
+
+#contenido {
+	padding:20px;
+	float:left;
+	min-height:500px;
+	width:calc(100% - 40px);
+	background:#FFF;
+}
+
+input[type="text"], input[type="password"], select, textarea {
+	border:1px solid #666;
+	transition:border 200ms;
+	box-sizing:border-box;
+	width:100%;
+	padding:5px;
+	font-size:1.05em;
+	margin-bottom:10px;
+}
+
+textarea {
+	height:150px;
+	font-family:Arial;
+}
+
+input:focus, input:hover, textarea:focus, textarea:hover, select:focus, select:hover {
+	border:1px solid #319dd7;
+}
+
+button {
+	background:#666;
+	color:#FFF;
+	border:0;
+	border-radius:5px;
+	font-size:0.9em;
+	text-transform:uppercase;
+	font-weight:bold;
+	transition:background 200ms;
+	cursor:pointer;
+	padding:10px;
+}
+
+button:hover {
+	background:#319dd7;
+}
+
+.sombreado {
+	background:#CCC;
+}
+
+nav {
+	float:left;
+	width:100%;
+	background:#319dd7;
+	border-top:5px solid #FFF;
+}
+
+li {
+	display:block;
+	float:left;
+}
+
+ul {
+	margin:0;
+	padding:0;
+}
+
+nav li a {
+	float:left;
+	color:#FFF;
+	text-decoration:none;
+	padding:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+	border-right:5px solid #FFF;
+	font-weight:bold;
+	transition:background 400ms;
+}
+
+nav li a:hover {
+	background:#666;
+}
+
+.productos {
+	float:left;
+}
+
+.producto {
+	float:left;
+	background:#EEE;
+	width:150px;
+	padding:10px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:20px;
+}
+
+.nombre {
+	float:left;
+	width:100%;
+	font-weight:bold;
+	color:#666;
+	text-align:center;
+	margin-top:10px;
+}
+
+.precio {
+	float:left;
+	width:100%;
+	font-weight:bold;
+	color:#F66;
+	font-size:2em;
+	text-align:center;
+}
+
+.boton {
+	float:left;
+	width:100%;
+	text-align:center;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.c_linea {
+	float:left;
+	width:100%;
+	background:#EEE;
+	margin-top:5px;
+	font-weight:bold;
+	color:#666;
+	height:55px;
+	overflow:hidden;
+	transition:background 400ms;
+}
+
+.c_cabecera, .c_cabecera_ed {
+	float:left;
+	width:100%;
+	background:#319dd7;
+	padding-top:10px;
+	padding-bottom:10px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	color:#FFF;
+	font-weight:bold;
+}
+
+.c_cabecera_ed {
+	margin-top:20px;
+}
+
+.c_pie, .c_pie_ed {
+	float:left;
+	width:630px;
+	background:#319dd7;
+	margin-top:5px;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-right:130px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	color:#FFF;
+	font-weight:bold;
+	text-align:right;
+}
+
+.c_pie_ed {
+	width:730px;
+	padding-right:30px;
+}
+
+.c_col1 {
+	float:left;
+	padding-left:20px;
+	width:370px;
+}
+
+.c_col_ed1b {
+	float:left;
+	padding-left:20px;
+	width:470px;
+}
+
+.c_col_ed1 {
+	float:left;
+	padding-left:20px;
+	width:630px;
+}
+
+.c_col2 {
+	float:left;
+	width:70px;
+	text-align:right;
+	margin-right:20px;
+}
+
+.c_col3, .c_col_ed3 {
+	float:left;
+	width:80px;
+}
+
+.c_col_ed3 {
+	text-align:right;
+}
+
+.c_col4 {
+	float:left;
+	width:70px;
+	text-align:right;
+	margin-right:20px;
+}
+
+.c_col5 {
+	float:left;
+}
+
+.c_linea .c_col1, .c_linea .c_col_ed1b, .c_linea .c_col_ed1, .c_linea .c_col2, .c_linea .c_col_ed3, .c_linea .c_col4 {
+	padding-top:19px;
+}
+
+.c_linea .c_col3 {
+	padding-top:12px;
+}
+
+.c_linea .c_col5 {
+	padding-top:10px;
+}
+
+.botonera {
+	float:left;
+	width:100%;
+	margin-top:10px;
+	text-align:right;
+}
+
+.comprar {
+	background:#C00;
+	font-size:1.5em;
+	margin-top:30px;
+}
+
+.etiqueta {
+	color:#666;
+	float:left;
+	width:100%;
+	font-weight:bold;
+	margin-bottom:5px;
+}
+
+.campo {
+	float:left;
+	width:100%;
+	margin-bottom:10px;
+}
+
+.fin {
+	float:left;
+	width:100%;
+	text-align:center;
+	color:#319dd7;
+	font-weight:bold;
+	font-size:1.8em;
+	padding-top:100px;
+}
+
+.privada {
+	background:#f66;
+}
+
+.login {
+	float:left;
+	width:300px;
+	border:1px solid #666;
+	padding:20px;
+	margin-left:210px;
+	margin-top:50px;
+}
+
+a.c_linea:hover {
+	background:#DDD;
+}
+
+.noedit {
+	font-size:0.9em;
+	color:#666;
+}
