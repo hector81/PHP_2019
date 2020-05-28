@@ -1,0 +1,2 @@
+texto_pie;Footer page test
+texto_titulo;first prime numbers

@@ -1,0 +1,2 @@
+texto_pie;Prueba de pie de página
+texto_titulo;primeros números primos
